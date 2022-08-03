@@ -1,0 +1,309 @@
+.head{
+    height: 60px;
+    width: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 200px;
+   background-image: url(logo.png);
+   background-size: cover;
+}
+.contenair{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.grand{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua;  */
+    /* border-radius: 70px; */
+    margin-left: 250px;
+    /* border: 7px solid transparent; */
+    background-image: url(gauche.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+    /* border-top-color: black;
+    border-left-color: black; */
+
+}
+.grand2{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    /* border-radius: 70px; */
+    margin-left: 965px;
+    background-image: url(droite.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    /* border: 7px solid transparent; */
+    /* border-right-color: black;
+    border-bottom-color: black; */
+    margin-top: -165px;
+
+}
+.cercle{
+    height: 700px;
+    width: 700px;
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    margin-left: 350px;
+    margin-top: -130px;
+    border-radius: 200px 0px 200px 0px ;
+}
+.petit{
+    height: 550px;
+    width: 550px;
+    background-color: #7a67ea;
+    opacity: 0.7;
+    margin-left: 100px;
+    margin-top: -450px;
+    border-radius: 0px 90px 90px 90px;
+    padding-left: 50px;
+    padding-right: 30px;
+    color: white;
+} 
+.petit h2{
+    margin-top: 30px;
+   font-size: 60px;
+   font-weight: normal;
+    color: white;
+} 
+.petit h1{
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+
+    
+} 
+.trois{
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.trois1{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    margin-top: 30px;
+    height: 23%;
+    width: 100px;
+    background-image: url(PARELER.png);
+    background-size: cover;
+    
+    border-radius: 50%;
+}
+.icon2{
+    margin-top: 30px;
+    height: 23%;
+    width: 100px;
+    background-image: url(ord.jpg);
+    background-size: cover;
+    
+    border-radius: 50%;
+}
+.icon3{
+    margin-top: 30px;
+    height: 23%;
+    width: 100px;
+    background-image: url(ampoule.png);
+    background-size: cover;
+    
+    border-radius: 50%;
+}
+.titre{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 1px;
+    
+}
+.titre h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20PX;
+    
+}
+.barre{
+    height: 2%;
+    width: 80px;
+    background-color: #7a67ea;
+    margin-top: 25px;
+}
+.text{
+    height: 50%;
+    width: 100%;
+   
+   
+}
+.text p{
+    text-align: center;
+   
+}
+.trois2{
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    border-radius: 0px 90px 90px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.trois3{
+    height: 100%;
+    width: 32%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    height: 160px;
+    width: 100%;
+   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gauche{
+    height: 100%;
+    width: 30%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.haut{
+    height: 100%;
+    width: 33%;
+    background-image: url(phone.png);
+    background-size: cover;
+}
+.bas{
+    height: 100%;
+    width: 69%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bas1{
+    height: 93%;
+    width: 96%;
+    padding-top: 20px;
+  
+}
+.bas1 h3{
+    font-weight: normal;
+    text-align: left ;
+   
+}
+.bas2{
+    height: 5%;
+    width: 70%;
+    background-color: #7a67ea;
+}
+.tex{
+    text-align: left;
+    margin-left: 30px;
+}
+.droite{
+    height: 100%;
+    width: 69%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sous1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.sous2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.petithaut{
+    width: 100%;
+    height: 40%;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.petithautg2{
+    width: 25%;
+    height: 100%;
+    background-image: url(map.png);
+   background-size: cover;
+   margin-bottom: 10px;
+}
+.petithautg21{
+    width: 25%;
+    height: 100%;
+    background-image: url(internet.png);
+   background-size: cover;
+   margin-bottom: 10px;
+}
+.petithautg11{
+    width: 25%;
+    height: 100%;
+    background-image: url(email.png);
+   background-size: cover;
+   margin-bottom: 10px;
+}
+
+.petithautg{
+    width: 25%;
+    height: 100%;
+    background-image: url(telephone.png);
+   background-size: cover;
+   margin-bottom: 10px;
+}
+.petithautg1{
+   
+}
+.petithautd{
+    width: 75%;
+    height: 100%;
+  
+}
+.petitbas{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
